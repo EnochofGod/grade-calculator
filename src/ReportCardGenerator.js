@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import GlobalScriptsAndStyles from './GlobalScriptsAndStyles';
 import App from './App';
 import { DataProvider } from './DataProvider';
@@ -8,11 +8,11 @@ import { DataProvider } from './DataProvider';
 const ReportCardGenerator = () => (
   <>
     <GlobalScriptsAndStyles />
-    <BrowserRouter>
+    <HashRouter>
       <DataProvider>
         <App />
       </DataProvider>
-    </BrowserRouter>
+    </HashRouter>
   </>
 );
 
