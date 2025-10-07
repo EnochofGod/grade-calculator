@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Printer, Home } from 'lucide-react';
 import ActionButton from './ActionButton';
 import { handlePrint, getTemplateSpecificHeaders } from './reportCardUtils';
-import Header from './Header';
+// Header import removed: ReportCardRenderer defines a local Header component
 
 const ReportCardRenderer = ({ schoolType, templateStyle, studentData, result, config, resetData }) => {
     const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext, useContext } from 'react';
+import React, { useState, createContext, useContext } from 'react';
 import { GRADING_SYSTEMS, initialStudentData, initialGrades } from './gradingConfig';
 
 export const ReportCardContext = createContext();
